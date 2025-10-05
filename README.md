@@ -1,6 +1,6 @@
 # 25-2_DSL_Modeling_NLP2_HospitalAgent
 
-# SCOPE: Hospital Reservation System with Multi-Agent Orchestration
+# Hospital Reservation System with Multi-Agent Orchestration
 
 > This project was conducted by the **Natural Language Processing Team 2** as part of the 2025 Fall modeling project at [**Data Science Lab, Yonsei University**](https://github.com/DataScience-Lab-Yonsei).
 
