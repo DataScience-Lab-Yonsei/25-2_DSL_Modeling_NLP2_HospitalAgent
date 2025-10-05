@@ -11,8 +11,8 @@
 | Cohort | Members                            |
 |--------|------------------------------------|
 | 12th   | Eunhee Kim, Kunwoo Kim |
-| 13th   | Sehyun Park(Leader)        |
-| 13th   | Dongjun Shin, Junho Yeo        |
+| 13th   | Sehyun Park (Leader)        |
+| 14th   | Dongjun Shin, Junho Yeo        |
 
 
 ---
