@@ -1,6 +1,6 @@
 # 25-2_DSL_Modeling_NLP2_HospitalAgent
 
-# SCOPE: Slice-COnsistent PET Reconstruction with 2D BBDM
+# SCOPE: Hospital Reservation System with Multi-Agent Orchestration
 
 > This project was conducted by the **Natural Language Processing Team 2** as part of the 2025 Fall modeling project at [**Data Science Lab, Yonsei University**](https://github.com/DataScience-Lab-Yonsei).
 
@@ -28,17 +28,18 @@ For more detailed explanations, methodology, and analysis, please refer to the [
 
 ## How to Run Code
 
-This project contains two main components:
-
-* `gan/`: GAN-based denoising and image-to-image translation for PET image reconstruction
-* `bbdm/`: **Slice-Consistent Brownian Bridge Diffusion Model for PET image reconstruction**
-
-To run the code, please refer to the respective `README.md` files:
-
 ```bash
-cd gan/
-# or
-cd bbdm/
+# First, start the RAG server
+cd rag_doctor_agent && python a2a_wrapper.py
+
+# Run LangGraph
+cd ../ && langgraph dev
+
+# There are two ways to interact: through the LangGraph Studio UI or the custom interface.
+# LangGraph Studio UI automatically launches in the browser when you run `langgraph dev`, but it requires signup and setup.
+# Below launches the custom interface that allows you to use your terminal to interact with the agent.
+
+python chat_interface.py
 ```
 
 ---
@@ -57,5 +58,4 @@ cd bbdm/
 
 ## License
 
-Some parts of this codebase are adapted from external repositories with their own licenses. For exact licensing terms, please refer to each respective repository listed in the `Acknowledgement` section.
-
+-
