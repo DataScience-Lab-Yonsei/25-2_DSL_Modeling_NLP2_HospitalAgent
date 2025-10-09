@@ -1,0 +1,17 @@
+{
+    "local_container": 
+    {
+        "prompt": {
+            "user_query_parser": "v1",
+            "result_generator": "v1"
+        },
+        "model": {
+            "model_version": "gpt-5",
+            "data_version": "v1"
+        },
+        "file": {
+            "rag": "v1",
+            "query": "v1"
+        }
+    }
+}
