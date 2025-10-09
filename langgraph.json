@@ -1,8 +1,0 @@
-{
-  "dependencies": ["."],
-  "graphs": {
-    "medical_reservation": "./main/langgraph_workflow.py:create_hospital_reservation_workflow"
-  },
-  "env": ".env",
-  "python_path": "."
-}
